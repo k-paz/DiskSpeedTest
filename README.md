@@ -1,5 +1,7 @@
 # DiskSpeedTest
 Commandline script with parametrized loops and concurrent processes mostly writing and some reading with temp files for real performance assesment on filesystem and disk.
+-
+Crucially - put the scripts in their own/clean directory without any other files in it in order to have proper calculation for the speed estimation.
 ---
 
 Example usage:
